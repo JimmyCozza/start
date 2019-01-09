@@ -34,23 +34,11 @@
 
             },1000);
         </script>
-        <div class="search-row">
-            <input id="search-field" type="text" name="search-field" placeholder="Search" onkeypress="return search(event)" autofocus="true"/>
-            <script type="text/javascript">
-            function search(e) {
-                if (e.keyCode == 13) {
-                    var val = $("#search-field").val();
-                    window.location = "https://google.com/?q=" + val + "&kp=1&kl=de-de&kh=1&kg=p&k5=1&kae=d&k1=-1";
-                    return false;
-                }
-            }
-            </script>
-        </div>
         <div class="terminal-con">
             <div class="terminal-innerCon">
                 <div class="favCon">
                     <div class="favCon-header">
-                        <span>favorites</span>
+                        <span>usual suspects</span>
                     </div>
                     <div class="favCon-body">
                         <a href="https://gitlab.com" onfocus="if(this.blur)this.blur()">
@@ -81,10 +69,10 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="https://play.golang.org" onfocus="if(this.blur)this.blur()">
+                        <a href="https://gophercises.com" onfocus="if(this.blur)this.blur()">
                             <div class="favCon-el">
                                 <div class="favCon-el-content">
-                                    <span>golang playground</span>
+                                    <span>gophercises</span>
                                 </div>
                             </div>
                         </a>
@@ -92,7 +80,7 @@
                 </div>
                 <div class="favCon">
                     <div class="favCon-header">
-                        <span>tools</span>
+                        <span>docs & such</span>
                     </div>
                     <div class="favCon-body">
                         <a href="https://lodash.com/docs/4.17.11" onfocus="if(this.blur)this.blur()">
@@ -130,6 +118,13 @@
                                 </div>
                             </div>
                         </a>
+                        <a href="https://play.golang.org" onfocus="if(this.blur)this.blur()">
+                            <div class="favCon-el">
+                                <div class="favCon-el-content">
+                                    <span>golang playground</span>
+                                </div>
+                            </div>
+                        </a>
                         <a href="https://github.com/getify/You-Dont-Know-JS" onfocus="if(this.blur)this.blur()">
                             <div class="favCon-el">
                                 <div class="favCon-el-content">
@@ -141,7 +136,7 @@
                 </div>
                 <div class="favCon">
                     <div class="favCon-header">
-                        <span>personal</span>
+                        <span>stuff i like</span>
                     </div>
                     <div class="favCon-body">
                         <a href="https://netflix.com/" onfocus="if(this.blur)this.blur()">
@@ -183,8 +178,8 @@
                 </div>
             </div>
         </div>
-        <div></div>
-        <div></div>
+        <!--<div></div>-->
+        <!--<div></div>-->
     </div>
 </body>
 </html>
