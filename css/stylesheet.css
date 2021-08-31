@@ -5,27 +5,27 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 
 .hl-red {
-  color: #f78c6a;
+  color: #fb4934;
 }
 
 .hl-orange {
-  color: #ffcb6b;
+  color: #fe8019;
 }
 
 .hl-green {
-  color: #96dc8d;
+  color: #b8bb26;
 }
 
 .hl-blue {
-  color: #648494;
+  color: #83a598;
 }
 
 .hl-gray {
-  color: #8c8c8b;
+  color: #928374;
 }
 
 body {
-  background-image: url('../images/bamboo.png');
+  background-image: url('../images/console.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #010028;
@@ -144,13 +144,13 @@ body {
   width: 290px;
   margin: 20px 20px;
   padding: 0px;
-  border: solid 1px #648494;
+  border: solid 1px #98971a;
   float: left;
 }
 
 .favCon-header {
   padding: 5px 0px;
-  background: #648494;
+  background: #98971a;
   font-family: 'Cutive Mono';
   font-size: 18px;
   color: #f2f2f2;
@@ -175,7 +175,7 @@ body {
 }
 
 .favCon-el:hover {
-  background: #648494;
+  background: #b8bb26;
 }
 
 .favCon-el-content {
